@@ -1,0 +1,21 @@
+/* Editorial readability refinements — layered over the design tokens */
+.about{padding-top:150px}
+.editorial-section{min-height:650px}
+.editorial-section>.ghost-title{top:-58px;left:0;font-size:clamp(58px,8vw,118px);opacity:.7;z-index:0}
+.about-image{height:570px}
+.about-copy{margin-left:-55px;padding:58px 62px}
+.about-copy h2{font-size:clamp(48px,4.5vw,64px);line-height:.98;max-width:430px;letter-spacing:-.035em}
+.about-copy>p:not(.eyebrow){max-width:470px;font-size:15px;line-height:1.8}
+.about-copy .button{margin-top:14px}
+.services{padding-top:145px}
+.services-wrap>.ghost-title{top:-52px;font-size:clamp(60px,9vw,130px)}
+.work{padding-top:145px}
+.work-wrap>.ghost-title{top:-52px;font-size:clamp(60px,9vw,130px)}
+.reviews{padding-top:145px}
+.review-wrap>.ghost-title{top:-52px;font-size:clamp(60px,9vw,130px)}
+.cta{padding-top:120px}
+.contact{padding-top:145px}
+.contact-wrap>.ghost-title{top:-52px;font-size:clamp(60px,9vw,130px)}
+@media(max-width:1050px){.about{padding-top:130px}.about-copy{margin-left:-35px;padding:48px}.about-copy h2{font-size:52px}.editorial-section>.ghost-title{top:-42px}.services,.work,.reviews,.contact{padding-top:125px}}
+@media(max-width:780px){.about,.services,.work,.reviews,.contact{padding-top:95px}.editorial-section>.ghost-title,.services-wrap>.ghost-title,.work-wrap>.ghost-title,.review-wrap>.ghost-title,.contact-wrap>.ghost-title{top:-18px;font-size:64px}.about-image{height:420px}.about-copy{margin:-42px 16px 0;padding:42px 28px}.about-copy h2{font-size:48px;max-width:none}.about-copy>p:not(.eyebrow){font-size:15px}.services{padding-top:105px}.work{padding-top:105px}.reviews{padding-top:105px}.contact{padding-top:105px}}
+@media(max-width:480px){.editorial-section>.ghost-title,.services-wrap>.ghost-title,.work-wrap>.ghost-title,.review-wrap>.ghost-title,.contact-wrap>.ghost-title{font-size:52px}.about-copy h2{font-size:44px}}
