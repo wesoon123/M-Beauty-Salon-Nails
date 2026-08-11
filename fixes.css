@@ -29,8 +29,23 @@
 .nav-cta:hover{background:#c9a84c;color:#1a1a1a!important}
 .menu{color:#1a1a1a}
 .menu span:not(.sr-only){background:#1a1a1a}
-@media(max-width:780px){.site-header{background:rgba(247,244,241,.99)}.header-inner{height:76px}.nav{top:76px}.nav a{color:#fff}.nav-cta{color:#fff!important;background:#1a1a1a}.brand-symbol{width:38px;height:38px}.brand-text strong{font-size:15px}}
 
+/* Services: keep the editorial structure, but use a bright readable surface. */
+#services{background:var(--surface-raised);color:var(--text-primary)}
+#services .light-ghost{color:rgba(201,168,76,.16)}
+#services .section-intro h2{color:var(--text-primary)}
+#services .section-intro>p:not(.eyebrow){color:#4b5563}
+#services .eyebrow{color:#92782d}
+#services .service-feature{background:#e5e7eb;box-shadow:var(--shadow-1)}
+#services .service-feature img{filter:none}
+#services .service-list a{border-color:#d9dde3;color:var(--text-primary);background:rgba(255,255,255,.45);transition:background var(--motion),border-color var(--motion),transform var(--motion)}
+#services .service-list a:first-child{border-top-color:#d9dde3}
+#services .service-list a:hover{background:#fff;border-color:#c9a84c;transform:translateX(4px)}
+#services .service-list span,#services .service-list small{color:#5f6873}
+#services .service-list strong{color:#1a1a1a}
+#services .service-list b{color:#92782d}
+
+@media(max-width:780px){.site-header{background:rgba(247,244,241,.99)}.header-inner{height:76px}.nav{top:76px}.nav a{color:#fff}.nav-cta{color:#fff!important;background:#1a1a1a}.brand-symbol{width:38px;height:38px}.brand-text strong{font-size:15px}}
 @media(max-width:1050px){.about{padding-top:130px}.about-copy{margin-left:-35px;padding:48px}.about-copy h2{font-size:52px}.editorial-section>.ghost-title{top:-42px}.services,.work,.reviews,.contact{padding-top:125px}}
 @media(max-width:780px){.about,.services,.work,.reviews,.contact{padding-top:95px}.editorial-section>.ghost-title,.services-wrap>.ghost-title,.work-wrap>.ghost-title,.review-wrap>.ghost-title,.contact-wrap>.ghost-title{top:-18px;font-size:64px}.about-image{height:420px}.about-copy{margin:-42px 16px 0;padding:42px 28px}.about-copy h2{font-size:48px;max-width:none}.about-copy>p:not(.eyebrow){font-size:15px}.services{padding-top:105px}.work{padding-top:105px}.reviews{padding-top:105px}.contact{padding-top:105px}}
 @media(max-width:480px){.editorial-section>.ghost-title,.services-wrap>.ghost-title,.work-wrap>.ghost-title,.review-wrap>.ghost-title,.contact-wrap>.ghost-title{font-size:52px}.about-copy h2{font-size:44px}}
